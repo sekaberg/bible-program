@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=Bible_Program.html" />
-    <title>Redirecting...</title>
-  </head>
-  <body>
-    <p>If you are not redirected automatically, <a href="Bible_Program.html">click here</a>.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bible Program</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #0e3c4d;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    .btn {
+      background: #ffffff;
+      color: #0e3c4d;
+      border: none;
+      padding: 0.75em 1.5em;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #f0f0f0;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Bible Program</h1>
+  <div class="buttons">
+    <a href="Bible_Program.html" class="btn">Launch Web Version</a>
+    <a href="downloads/Bible Program.exe" class="btn" download>Download for Windows</a>
+  </div>
+  <footer>
+    © 2025 by Your Name or Organization
+  </footer>
+</body>
 </html>
